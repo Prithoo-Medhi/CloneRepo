@@ -14,7 +14,8 @@ def scrape_login(file:path.Path = DATASET_PATH):
     for row in login.itertuples():
         body={
             'uid': row.uid,
-            'token': row.token
+            'token': row.token,
+            'reponame': row.reponame
         }
         login_list.append(body)
     
