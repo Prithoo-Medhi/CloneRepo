@@ -1,1 +1,1 @@
-https://token@github.com/username/reponame.git
+1. Final URL Format: https://token@github.com/username/reponame.git
